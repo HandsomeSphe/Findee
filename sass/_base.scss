@@ -1,0 +1,148 @@
+*,
+*::before,
+*::after{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+};
+body{
+    font-family:Poppins;
+    font-weight:300;
+    background-color:rgba(85, 85, 85,.15);
+    position:relative;
+}
+h1{
+    font-size:2.25rem;
+    color:rgb(68, 132, 153);
+    font-family:Poppins;
+    text-align:center;
+    position:absolute;
+    top:1%;
+    left:45%;
+}
+
+.image__contaneir{
+    transition: 2s ease-in;
+
+}
+.contaneir{
+    background-color:#fff;
+    width:78%;
+    height:39rem;
+    margin:1.5rem auto 0;
+    box-shadow:4px -4px 5rem rgba(85, 85, 85,.15);
+    box-shadow:-4px 4px 5rem rgba(85, 85, 85,.15);
+    position:relative;
+
+
+    //display:none;
+    
+
+}
+.burger__icon{
+    width:7%;
+    height:3rem;
+    background-color:rgba(211, 211, 211,.5);
+    padding: 1rem;
+    cursor:pointer;
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+
+    position:absolute;
+    top:0;
+    left:93%;
+    &--one{
+        width:65%;
+        height:.3vh;
+        background-color:white;
+        margin-bottom:.2rem;
+    }
+    &--two{
+        width:65%;
+        height:.3vh;
+        background-color:white;
+        margin-bottom:.18rem;
+    }
+    &--three{
+        width:65%;
+        height:.3vh;
+        background-color:white;
+
+    }
+}
+
+@keyframes MoveUp{
+     0%{
+        opacity:100%;
+     }
+
+
+     100%{
+         opacity:0;
+         transform: translateY(-4rem);
+     }
+};
+
+@keyframes moveUp{
+    0%{ 
+        opacity:100%;
+     }
+     100%{
+        opacity:0;
+        transform: translateX(-4rem);
+        display: none;
+     }
+    
+}
+@keyframes move{
+    0%{
+        opacity:0;
+    }
+    50%{
+        opacity:70%;
+    }
+    100%{
+        opacity:100%;
+    }
+}
+@keyframes slideIn{
+    0%{
+        opacity:0;
+        transform:translateX(.5rem);
+    }
+    50%{
+        opacity:50%;
+    }
+    100%{
+
+        opacity:100%;
+        transform:translateX(0);
+    }
+}
+@keyframes fadeOut{
+    0%{
+        opacity:100%;
+    }100%{
+        opacity:0;
+    }
+}
+
+@keyframes slideInner{
+    0%{
+        opacity:60%;
+        transform:translateX(8rem);
+    }
+    100%{
+
+        opacity:100%;
+        transform:translateX(0);
+    }
+}
+
+
+
+
+
+

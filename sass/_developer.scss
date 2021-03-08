@@ -1,0 +1,58 @@
+.developer__side{
+    width:75%;
+    height:25rem;
+    background-color:#fff;
+
+
+    display:flex;     
+    margin:7rem auto;
+    display:none;
+
+
+
+    &--info{
+     flex:0 0 65%;
+     width:100%;
+     height:auto;
+     padding:1rem;
+     background-image:url(/img/light.jpg);
+     background-position:center;
+     background-size:cover;
+     background-repeat:no-repeat;
+
+    // background:linear-gradient(rgba(255,255,255,.7),rgba(255,255,255,.7)),lightgray;
+
+
+     display:flex;
+     flex-direction:column;
+     align-items:center;
+
+    }
+    &--pic{
+        flex:1;
+        width:100%;
+        height:25rem;
+        padding:1rem;
+        color:#555;
+        background-color:white;
+    }
+}
+.namee,.year,.batteryModel{
+    margin-bottom:1rem;
+    width:50%;
+    height:1.5rem;
+    text-align:center;
+}
+.justText{
+    color:lightgray;
+    margin-bottom:1rem;
+}
+.border{
+    width:60%;
+    height:15rem;
+    border:1px dotted #555;
+
+}
+.img{
+    margin:5rem 3rem;
+}

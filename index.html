@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Findee</title>
+        <link type="text/css" rel="stylesheet" href="./sass/home.css">
+    </head>
+    <body>
+        
+
+         <div class="contaneir">
+            <h1>Findee</h1>
+        
+              <div class="twoo">
+                        <div class="contaneir__left">
+                            <input id="Gee" type="text" class="contaneir__left--input one"  placeholder="laptop name  [ e.g  hp ]">
+                            <input id="Aee"  type="text" class="contaneir__left--input two" placeholder="laptop year of release">
+                            <div class="styler__button">send</div>
+
+                            <div class="element">
+                                <!---
+                                <div class="laptop__name">%laptopName%</div>
+                                <div class="laptop__yearOfRelease">%yearOfRelease%</div>
+                                <div class="laptop__batteryModel">%batteryModel%</div>
+                                <div class="laptop__batteryPrice">%batteryPrice%</div>
+                                -->
+                            </div>
+                        </div>
+        
+                        <div class="contaneir__right">      
+                            <div class="image__contaneir">
+                                <!------
+                                        <img class="image"src= ./img/IMG-20201006-WA0005.jpg>
+                                        <img class="image"src= ./img/IMG-20201006-WA0005.jpg>
+                                        <div class="all__sider">
+                                            <img class="imageB"src= ./img/IMG-20201006-WA0005.jpg>
+                                            <img class="imageB"src= ./img/IMG-20201006-WA0005.jpg>
+                                            <img class="imageB"src= ./img/IMG-20201006-WA0005.jpg>
+                                            <img class="imageB"src= ./img/IMG-20201006-WA0005.jpg>
+                                        </div>
+                                -->                        
+                        </div>
+                    </div>
+
+              </div>
+
+              <div class="popUp">
+                  <div class="popUp__remove">
+                    <svg class="popUp__remove--icon">
+                        <use xlink:href="./img/SVG/sprite.svg#icon-minus"></use>
+                    </svg>
+                    remove
+                  </div>
+                  <div class="popUp__text">Please enter something in both input fields</div>
+              </div>
+
+              <div class="back">back</div>
+
+              <div class="popUp2">
+                <div class="popUp2__remove">
+                  <svg class="popUp2__remove--icon">
+                      <use xlink:href="./img/SVG/sprite.svg#icon-minus"></use>
+                  </svg>
+                  remove
+                </div>
+                <div class="popUp2__text">We don't recognise this laptop 
+                           please click the burger icon on your top right corner
+                           and see if you can find your battery model.
+                </div>
+              </div>
+             <div class="burger__icon">
+                 <div class="burger__icon--one"></div>
+                 <div class="burger__icon--two"></div>
+                 <div class="burger__icon--three"></div>
+             </div>
+
+            </div>
+        </div>
+
+        
+            <!---navigation bar content-->
+            <div class="nav__contaneir">
+                <h1>Findee</h1>
+                <div class="nav__contaneir--remover">
+                    <svg class="nav__contaneirRemover--icon">
+                        <use xlink:href="./img/SVG/sprite.svg#icon-cross"></use>
+                    </svg>
+                </div>
+    
+                <!----CONTANEIR FOR ALPTOP AND BATTERY-->
+                <div class="contaneir__grid">
+
+                    <!--LAPTOP-->
+                    <div class="contaneir__grid--laptop">
+                        <div class="laptop__brand">
+                            <svg class="iconn">
+                                <use xlink:href="./img/brands/SVG/sprite.svg#icon-dell"></use>
+                            </svg>
+                        </div>
+                        <div class="laptop__actual"><img src="img/dell-xps-13.png" class="ema"></div>
+                        <div class="laptop__description">Laptop name: Dell Latitude</div>
+                        <div class="laptop__images">
+                            <div class="image__left"><img src="img/dell-xps-13.png" class="emae"></div>
+                            <div class="image__right"><img src="img/dell-xps-13.png" class="emae"></div>
+                            <div class="image__front"><img src="img/dell-xps-13.png" class="emae"></div>
+                            <div class="image__back"><img src="img/dell-xps-13.png" class="emae"></div>  
+                        </div>
+                    </div>
+
+                    <!--BATTERY-->
+                    <div class="contaneir__grid--battery">
+                        <div class="battery__main"><img class="bb"src= ./img/IMG-20201006-WA0007.jpg></div>
+                    </div>
+
+                </div>
+
+
+                <!----CONTANEIR FOR ALPTOP AND BATTERY-->
+                <div class="contaneir__grid">
+
+                    <!--LAPTOP-->
+                    <div class="contaneir__grid--laptop">
+                        <div class="laptop__brand">
+                            <svg class="iconn">
+                                <use xlink:href="./img/brands/SVG/sprite.svg#icon-apple"></use>
+                            </svg>
+                        </div>
+                        <div class="laptop__actual"><img src="./img/macbook-pro-15.jpg" class="ema"></div>
+                        <div class="laptop__description">Laptop name: MacBook 3 series</div>
+                        <div class="laptop__images">
+                            <div class="image__left"><img src="./img/samsung-notebook-9.jpg" class="emae"></div>
+                            <div class="image__right"><img src="./img/samsung-notebook-9.jpg" class="emae"></div>
+                            <div class="image__front"><img src="./img/samsung-notebook-9.jpg" class="emae"></div>
+                            <div class="image__back"><img src="./img/samsung-notebook-9.jpg" class="emae"></div>  
+                        </div>
+                    </div>
+
+                    <!--BATTERY-->
+                    <div class="contaneir__grid--battery">
+                        <div class="battery__main"><img class="bb"src= ./img/IMG-20201006-WA0010.jpg></div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="developer__side">
+                <div class="developer__side--info">
+                    <div class="justText">!! Hello Developer</div>
+                    <input type="text" placeholder="laptop name" class="namee">
+                    <input type="text" placeholder="year of release" class="year">
+                    <input type="text" placeholder="batteryModel" class="batteryModel">
+                </div>
+                <div class="developer__side--pic">
+                   <div class="border">
+                       <!---
+                        
+                       -->
+                       <input type="file" class="img" name="img" accept="image/*">
+                       <input type="submit" class="subb">
+                   </div>
+                </div>
+            </div>
+
+        <script src="sass/script.js"></script>
+    </body>
+</html>
+
+
+
+
+
+<!---
+    <div class="text">available brands:</div>
+    <div class="icons">
+    <div class="brand">
+
+        </div>
+        <div class="brand">
+        <svg class="brand__icon">
+            <use xlink:href="./img/brands/SVG/sprite.svg#icon-dell"></use>
+        </svg>
+        </div>
+        <div class="brand">
+        <svg class="brand__icon">
+            <use  xlink:href="./img/brands/SVG/sprite.svg#icon-apple"></use>
+        </svg>
+        </div>
+        <div class="brand">
+        <svg class="brand__icon" id="a">
+            <use xlink:href="./img/brands/SVG/sprite.svg#icon-lenovo"></use>
+        </svg>
+        </div>
+        <div class="brand">
+        <svg class="brand__icon" id="b">
+            <use xlink:href="./img/brands/SVG/sprite.svg#icon-samsung"></use>
+        </svg>
+        </div>
+-->
